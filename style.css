@@ -1,0 +1,62 @@
+html{
+ scroll-behavior: smooth;
+}
+body{
+    text-align:center;
+    margin: 0;
+}
+#intro{
+    background: linear-gradient(grey,cyan);
+    height: 720px;
+    display:table;
+    width:100%;
+}
+#intro_inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+#menu{
+    list-style: none;
+    background-color: #393F4B;
+    color: white;
+    margin:0;
+    padding: 7px;
+}
+.item{
+  display: inline;  
+}
+.item>a{
+    margin-right:10px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.item>a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+#name{
+    font-family: 'Texturina', serif;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-size:40px;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px black; 
+}
+#Career{
+    height: 800px;
+    width: 90%;
+}
+
+#sm{
+    padding: 30px 0px;
+    background-color: black;
+}
+#sm a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#sm span{
+    color: white;
+    margin-right: 10px;
+}
